@@ -45,7 +45,7 @@ void loop()
 }
 
 ## :robot: Link al proyecto
-- [proyecto](https://www.tinkercad.com/things/iGZplXy7dOf-primera-entrega-matias-skenen-01-dojo-i/editel?sharecode=xUV1EZMR_iX3sahqaI9wbTSUNm4nuyn2QpeAgWrUPLg)
+- [proyecto]([https://www.tinkercad.com/things/iGZplXy7dOf-primera-entrega-matias-skenen-01-dojo-i/editel?sharecode=xUV1EZMR_iX3sahqaI9wbTSUNm4nuyn2QpeAgWrUPLg](https://www.tinkercad.com/things/8wluitiqOAZ-copy-of-primera-entrega-matias-skenen-01-dojo-i/editel?sharecode=mtc3Vndk-CvX9adMNDXIhhC3Ek4rtVqth4sa7LxDHnQ))
 ## :tv: Link al video del proceso
 - [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
 
