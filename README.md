@@ -7,7 +7,8 @@
 
 
 ## Proyecto: Semaforo
-![Tinkercad](./img/ContadorBinario.png)
+![Tinkercad]![Proyecto 1](https://user-images.githubusercontent.com/93952537/236280630-a084f336-75c3-4943-be82-ab6381e8bf13.PNG)
+
 
 
 ## Descripción
@@ -31,7 +32,7 @@ void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
 ~~~
 
 ## :robot: Link al proyecto
-- [proyecto](https://www.tinkercad.com/things/aOYiibnDjWu)
+- [proyecto](https://www.tinkercad.com/things/iGZplXy7dOf-primera-entrega-matias-skenen-01-dojo-i/editel?sharecode=xUV1EZMR_iX3sahqaI9wbTSUNm4nuyn2QpeAgWrUPLg)
 ## :tv: Link al video del proceso
 - [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
 
