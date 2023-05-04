@@ -3,7 +3,7 @@
 
 
 ## Integrantes 
-- Esteban Marcelo Quiroz  
+- Matias Skenen
 
 
 ## Proyecto: Contador binario.
