@@ -22,15 +22,26 @@ Esta funcion se encarga de encender y apagar los leds.
 (Breve explicación de la función)
 
 void loop()
+
 {
-  semaforo(PINLEDUNO, 5000, 0, 0, 0);
+  //ROJO
+  semaforo(PINLEDTRES, 5000, 0, 0, 0, 0);
+  
+  titilo(PINLEDTRES,1000, 3);
+  
+  //AMARILLO
+  semaforo(PINLEDDOS, 0, 200, 300, 1000, 3);
+  titilo(PINLEDDOS,1000, 3);
+  
   //VERDE
+  semaforo(PINLEDUNO, 5000, 0, 0, 0, 0);
+
+  titilo(PINLEDUNO,1000, 3);
 
   //AMARILLO
-  semaforo(PINLEDDOS, 3000, 0, 0, 1000);
-	
-  //ROJO
-  semaforo(PINLEDTRES, 0, 400, 100, 500);
+  semaforo(PINLEDDOS, 0, 200, 300, 1000, 3);
+
+  titilo(PINLEDDOS,1000, 3);
 }
 
 ## :robot: Link al proyecto
