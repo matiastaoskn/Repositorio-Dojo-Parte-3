@@ -1,4 +1,4 @@
-# DOJO-I
+# DOJO-I (Parte 1)
 ![Tinkercad](./img/ArduinoTinkercad.jpg)
 
 
