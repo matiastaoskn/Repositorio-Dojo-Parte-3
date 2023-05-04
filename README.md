@@ -1,4 +1,4 @@
-# DOJO-I (Parte 2)
+# DOJO-I (Parte 3)
 ![Tinkercad](./img/ArduinoTinkercad.jpg)
 
 
@@ -22,30 +22,34 @@ Esta funcion se encarga de encender y apagar los leds.
 (Breve explicación de la función)
 
 void loop()
-
 {
+ 
+  button = digitalRead(BUTTON);
+  delay(1500);
+  if(button == 1)
+  {
+    Serial.println("Extendiendo");
+    semaforo(PINLEDTRES, duracion);
+    duracion = duracion *2;
+  }else
+  {
+    Serial.println("Tiempo Normal");
+    duracion = 5000;
+  }
+
   //ROJO
-  semaforo(PINLEDTRES, 5000, 0, 0, 0, 0);
-  
-  titilo(PINLEDTRES,1000, 3);
-  
+  semaforo(PINLEDTRES, duracion);
+
   //AMARILLO
-  semaforo(PINLEDDOS, 0, 200, 300, 1000, 3);
-  titilo(PINLEDDOS,1000, 3);
-  
+  semaforo(PINLEDDOS, 3000);
+
   //VERDE
-  semaforo(PINLEDUNO, 5000, 0, 0, 0, 0);
-
-  titilo(PINLEDUNO,1000, 3);
-
-  //AMARILLO
-  semaforo(PINLEDDOS, 0, 200, 300, 1000, 3);
-
-  titilo(PINLEDDOS,1000, 3);
-}
+  semaforo(PINLEDUNO, 5000);
+ 
+ }
 
 ## :robot: Link al proyecto
-- [proyecto](https://www.tinkercad.com/things/8wluitiqOAZ-copy-of-primera-entrega-matias-skenen-01-dojo-i/editel?sharecode=mtc3Vndk-CvX9adMNDXIhhC3Ek4rtVqth4sa7LxDHnQ)
+- [proyecto](https://www.tinkercad.com/things/3zi9R65tnj8-copy-of-segunda-entrega-matias-skenen-02-dojo-i/editel?sharecode=JKjHienjvPec6KL6ZyZD8ggS9sHiFMRXm5TPB4-hd_c)
 ## :tv: Link al video del proceso
 - [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
 
