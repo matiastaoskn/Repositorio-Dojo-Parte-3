@@ -6,7 +6,7 @@
 - Matias Skenen
 
 
-## Proyecto: Contador binario.
+## Proyecto: Semaforo
 ![Tinkercad](./img/ContadorBinario.png)
 
 
